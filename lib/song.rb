@@ -59,7 +59,7 @@ class Song
       result = self.new_from_filename(filename)
       song = self.create
       result.name = song.name
-      song_artist = result.artist_name
+      song.artist = result.artist_name
       song
     end
   end

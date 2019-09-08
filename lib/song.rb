@@ -46,6 +46,8 @@ class Song
     sorted_array
   end
     
+    def self.new_from_filename(title)
+      
   end
     
 

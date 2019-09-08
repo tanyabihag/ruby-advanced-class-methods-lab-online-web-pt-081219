@@ -32,7 +32,8 @@ class Song
     result
   end
   def self.find_create_by_name(title)
-    song = self.find_by_name
+    result = self.find_by_name(title)
+    if result
     
   end
     
